@@ -70,14 +70,6 @@ function bs_container() {
 					)
 				)
 			));
-			
-			vc_map_update( 'vc_section', [
-//				'name' => esc_html__( 'Section', 'js_composer' ),
-//				'category' => esc_html__( 'Bootstrap', 'js_composer' ),
-				'as_parent' => [
-					'only' => 'vc_row,bs_container'
-				]
-			]);
 		}
 		
 		public function output($atts, $content = NULL ) {
